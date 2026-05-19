@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Velocidade vs Qualidade</title>
+
+  <style>
+    :root {
+      --bg: #0f1115;
+      --surface: #171a21;
+      --surface-hover: #1d212b;
+      --text: #e6e6e6;
+      --muted: #a0a8b8;
+      --accent: #8ab4ff;
+      --border: #2a3040;
+      --max-width: 900px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      padding: 48px 24px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, system-ui, sans-serif;
+      line-height: 1.8;
+      display: flex;
+      justify-content: center;
+    }
+
+    main {
+      width: 100%;
+      max-width: var(--max-width);
+    }
+
+    header {
+      margin-bottom: 48px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      color: var(--accent);
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      line-height: 1.15;
+      margin: 0 0 24px;
+      letter-spacing: -0.03em;
+    }
+
+    .meta {
+      display: grid;
+      gap: 20px;
+      margin-top: 32px;
+    }
+
+    .meta-block {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px;
+    }
+
+    .meta-title {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 8px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .meta-content {
+      font-size: 1.05rem;
+    }
+
+    section {
+      margin-top: 56px;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 28px;
+      letter-spacing: -0.02em;
+    }
+
+    .article-list {
+      display: grid;
+      gap: 20px;
+    }
+
+    article {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 24px;
+      transition: 0.2s ease;
+    }
+
+    article:hover {
+      background: var(--surface-hover);
+      transform: translateY(-2px);
+    }
+
+    .article-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      line-height: 1.5;
+      margin-bottom: 14px;
+    }
+
+    .translation {
+      color: var(--muted);
+      font-style: italic;
+      margin-bottom: 14px;
+    }
+
+    .authors {
+      color: #c8d0df;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 700px) {
+      body {
+        padding: 28px 18px;
+      }
+
+      article {
+        padding: 20px;
+      }
+
+      .meta-block {
+        padding: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+
+    <header>
+      <span class="eyebrow">Pesquisa</span>
+
+      <h1>Velocidade vs Qualidade: O Paradoxo do Código Gerado por IA</h1>
+
+      <div class="meta">
+
+        <div class="meta-block">
+          <div class="meta-title">Tema Principal</div>
+          <div class="meta-content">
+            IA no Desenvolvimento de Software
+          </div>
+        </div>
+
+        <div class="meta-block">
+          <div class="meta-title">Pergunta Central</div>
+          <div class="meta-content">
+            "Os ganhos de produtividade proporcionados pelo desenvolvimento de software assistido por IA justificam os riscos associados à dívida técnica, às vulnerabilidades de segurança e à degradação da manutenibilidade do código gerado?"
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+    <section>
+      <h2>Artigos</h2>
+
+      <div class="article-list">
+
+        <article>
+          <div class="article-title">
+            Análise Comparativa de Código Gerado por IA: ChatGPT, Gemini e Claude em Métricas de Qualidade de Software
+          </div>
+
+          <div class="authors">
+            Gustavo H. dos S. RIEGERT
+          </div>
+        </article>
+
+        <article>
+          <div class="article-title">
+            Assessing the Quality and Security of AI-Generated Code: A Quantitative Analysis
+          </div>
+
+          <div class="translation">
+            Avaliando a Qualidade e a Segurança do Código Gerado por IA: Uma Análise Quantitativa
+          </div>
+
+          <div class="authors">
+            Abbas Sabra, Olivier Schmitt, Joseph Tyler
+          </div>
+        </article>
+
+        <article>
+          <div class="article-title">
+            Evaluating the Reliability, Security, and Quality of AI-Generated Code in Modern Software Engineering
+          </div>
+
+          <div class="translation">
+            Avaliando Confiabilidade, Segurança e Qualidade do Código Gerado por IA na Engenharia de Software Moderna
+          </div>
+
+          <div class="authors">
+            Prof. Janki Patel, Aarush Patel, Henil Prajapati, Kuldeep Rathod, Manoj Suthar
+          </div>
+        </article>
+
+        <article>
+          <div class="article-title">
+            Human-Written vs. AI-Generated Code: A Large-Scale Study of Defects, Vulnerabilities, and Complexity
+          </div>
+
+          <div class="translation">
+            Código Escrito por Humanos vs. Código Gerado por IA: Um Estudo em Larga Escala sobre Defeitos, Vulnerabilidades e Complexidade
+          </div>
+
+          <div class="authors">
+            Domenico Cotroneo, Cristina Improta, Pietro Liguori
+          </div>
+        </article>
+
+        <article>
+          <div class="article-title">
+            Impacto de modelos de lenguaje de gran tamaño en calidad y eficiencia de generación de código: Revisión Sistemática de Literatura
+          </div>
+
+          <div class="translation">
+            Impacto de Modelos de Linguagem de Grande Escala na Qualidade e Eficiência da Geração de Código: Revisão Sistemática da Literatura
+          </div>
+
+          <div class="authors">
+            Viviana Fernanda Quevedo-Tumailli, Sandra Elizabeth Arias Calderón, Verónica Alexandra Ortega Manjarrez, Bernabe Ortega-Tenezaca
+          </div>
+        </article>
+
+        <article>
+          <div class="article-title">
+            Is LLM-Generated Code More Maintainable & Reliable than Human-Written Code?
+          </div>
+
+          <div class="translation">
+            O Código Gerado por LLMs é Mais Manutenível e Confiável que o Código Humano?
+          </div>
+
+          <div class="authors">
+            Alfred Santa Molison, Marcia Moraes, Glaucia Melo, Fabio Santos, Wesley K. G. Assunção
+          </div>
+        </article>
+
+        <article>
+          <div class="article-title">
+            Quality Assurance of LLM-generated Code: Addressing Non-Functional Quality Characteristics
+          </div>
+
+          <div class="translation">
+            Garantia de Qualidade em Código Gerado por LLMs: Abordando Características de Qualidade Não Funcionais
+          </div>
+
+          <div class="authors">
+            Xin Sun, Daniel Ståhl, Kristian Sandahl, Christoph Kessler
+          </div>
+        </article>
+
+        <article>
+          <div class="article-title">
+            Security Degradation in Iterative AI Code Generation: A Systematic Analysis of the Paradox
+          </div>
+
+          <div class="translation">
+            Degradação de Segurança na Geração Iterativa de Código por IA: Uma Análise Sistemática do Paradoxo
+          </div>
+
+          <div class="authors">
+            Shivani Shukla, Himanshu Joshi, Romilla Syed
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>

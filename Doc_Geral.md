@@ -1,5 +1,3 @@
-# IA no Desenvolvimento de Software
-
 ## Velocidade vs Qualidade: O Paradoxo do Código Gerado por IA
 
 **Tema Principal:** IA no Desenvolvimento de Software  
