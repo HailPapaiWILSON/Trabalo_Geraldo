@@ -1,32 +1,29 @@
-*   **LeetCode**
-*   **SonarQube**
-*   **Cyclomatic Complexity**
-*   **Code Smell**
-*   **Complexity Scores** (including Cognitive Complexity)
-*   **Path Traversal**
-*   **Refactoring**
-*   **Tokens**
-*   **Zero-shot**
-*   **Few-shot**
-*   **Fine-tuning**
-*   **Assertividade**
-*   **Manutenibilidade**
-*   **Produtividade Efetiva**
-*   **Functional Performance** (Corretude Funcional)
-*   **Issues per Passing Task**
-*   **Latent Defects**
-*   **Stratified AI-Human Governance Framework (SAHGF)**
-*   **False Sense of Security**
-*   **Feedback Loop Security Degradation**
-*   **Orthogonal Defect Classification (ODC)**
-*   **Vocabulary Diversity** (Lexical Diversity)
-*   **Structural Complexity**
-*   **Vibe Coding**
-*   **Code Learning**
-*   **Stochastic Nature** (Non-determinism)
-*   **Effort-in-minute**
-*   **NFQCs (Non-Functional Quality Characteristics)**
-*   **Patch Successfully Applied Rate (PSA)**
-*   **Negative Optimization**
-*   **Iteration Chain**
-*   **Security Prompting Paradox**
+- LLMs
+- IDEs
+- Common Weakness Enumeration (CWE)
+- SQL Injection
+- Path Traversal
+- Feedback Loop Security Degradation
+- Security Prompting Paradox
+- Latent Defects
+- Functional Performance (Corretude Funcional)
+- Manutenibilidade
+- Produtividade Efetiva
+- NFQCs (Non-Functional Quality Characteristics)
+- Fine-tuning
+- Zero-shot
+- Few-shot
+- Chain-of-thought
+- Iteration Chain
+- Negative Optimization
+- Vibe Coding
+- Stratified AI-Human Governance Framework (SAHGF)
+- Cyclomatic Complexity
+- Cognitive Complexity
+- Structural Complexity
+- Code Smell
+- Refactoring
+- SEI CERT Oracle Coding Standard for Java
+- SEI CERT C Coding Standard
+- Orthogonal Defect Classification (ODC)
+- Prompt Engineering
