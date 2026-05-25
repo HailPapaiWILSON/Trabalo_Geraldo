@@ -9,8 +9,8 @@ Com base na análise de estudos acadêmicos a cerca do assunto. Utilizar diferen
 
 ### Resultado 
 
-// TODO
+// A FAZER
 
 ### Conclusão
 
-// TODO
+// A FAZER
