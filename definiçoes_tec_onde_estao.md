@@ -1,4 +1,4 @@
-### *Esses conceitos foram gerados com NotebookLM, logo estão sujeitas a mundanças drásticas*
+### *Esses conceitos foram gerados com NotebookLM, logo estão sujeitos a mudanças drásticas e não devem ser levados como a palavra final.*
 
 
 
