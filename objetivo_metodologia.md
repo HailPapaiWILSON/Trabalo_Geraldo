@@ -14,5 +14,5 @@ Este trabalho consistiu em uma revisão bibliográfica de caráter qualitativo e
 
 ---
 
-Texto de Introdução:
+## Texto de Introdução:
 [PLACEHOLDER]
