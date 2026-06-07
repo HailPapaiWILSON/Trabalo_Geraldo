@@ -11,3 +11,8 @@ Analisar o impacto do uso de ferramentas de Inteligência Artificial Generativa 
 
 ## Metodologia
 Este trabalho consistiu em uma revisão bibliográfica de caráter qualitativo e analítico, focada no mapeamento da produção científica recente sobre a engenharia de software assistida por inteligência artificial. O processo de coleta e seleção de dados concentrou-se em artigos científicos de relevância empírica e documentações técnicas oficiais, consultados por meio de indexadores acadêmicos como o Google Acadêmico e bases de dados especializadas na área de computação.
+
+---
+
+Texto de Introdução:
+[PLACEHOLDER]
